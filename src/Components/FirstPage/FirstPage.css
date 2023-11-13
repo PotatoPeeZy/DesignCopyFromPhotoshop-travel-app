@@ -1,0 +1,55 @@
+.firstPage {
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+  justify-content: center;
+  height: 60rem;
+}
+.fp-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 70px;
+  gap: 20px;
+}
+.firstPage-bg {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  z-index: -2;
+  top: 0px;
+}
+.fp-hike {
+  font-family: "OpenSans-ext-bold";
+  color: #deb37e;
+  font-size: 7em;
+  text-shadow: 6px -6px 18px #000000;
+}
+.fp-subtitle {
+  color: #54524f;
+  font-family: "OpenSans-bold-italic";
+  font-size: 2rem;
+}
+.fp-button {
+  font-family: "OpenSans-ext-bold";
+  font-size: 2.1rem;
+  color: #776c64;
+  background-color: white;
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+}
+.fp-bodytext {
+  font-family: "OpenSans-italic";
+  font-size: 1.8rem;
+  color: #54524f;
+  width: 40rem;
+}
+.fp-button:hover {
+  background-color: #deb37e;
+  cursor: pointer;
+}
